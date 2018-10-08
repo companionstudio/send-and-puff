@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency     'httparty',   "~> 0.11.0"
-  spec.add_runtime_dependency     'nokogiri',   "~> 1.6.0"
+  spec.add_runtime_dependency     'nokogiri',   "~> 1.8.2"
   spec.add_development_dependency "bundler",    "~> 1.3"
-  spec.add_development_dependency "yard",       "~> 0.8.7.2"
+  spec.add_development_dependency "yard",       "~> 0.9.11"
   spec.add_development_dependency "rake"
 end
